@@ -1,0 +1,337 @@
+
+
+/* Add_vis.vue radio样式 */
+ .mint-radio-input:checked + .mint-radio-core {
+    background-color: #55B9F2;
+    border-color: #55B9F2;
+
+}
+.Add_vis .mint-cell-wrapper{
+     background-image:none;
+
+}
+.Add_vis  .mint-cell:last-child {
+    background-image:none;
+}
+
+.Add_vis .mint-radio-core {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+.mint-cell-wrapper{
+     background-image:none;
+
+}
+ .mint-cell:last-child {
+    background-image:none;
+}
+
+
+.chooseSex .mint-cell{
+     display:inline-block;
+     height:100%;
+     min-height: 0.6rem;
+     color:#555
+
+} 
+
+.chooseSex  .mint-radiolist-title {
+    display: none;
+
+}
+
+
+.chooseSex  .mint-radiolist{
+  height:0.7rem;
+  line-height: 0.7rem;
+
+}
+
+
+
+/* 
+
+
+
+ .mint-radio-input:checked + .mint-radio-core {
+    background-color: #55B9F2;
+    border-color: #55B9F2;
+
+}
+.mint-cell-wrapper{
+     background-image:none;
+
+}
+ .mint-cell:last-child {
+    background-image:none;
+}
+
+ .mint-radio-core {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.mint-radiolist-title {
+    display: none;
+    margin:0;
+}
+
+
+.mint-cell{
+     display:inline-block;
+     height:100%;
+     color:#555;
+     min-height: 0.4rem;
+     height:0.7rem;
+     line-height:0.7rem;
+     padding:0.08rem 0;
+
+} 
+
+
+.chooseSex .mint-cell{
+     min-height: 0.6rem;
+} 
+
+
+.chooseSex  .mint-radiolist{
+  height:0.7rem;
+  line-height: 0.7rem;
+
+}
+ */
+
+
+
+/* See_doctor的radio标签 */
+
+
+.See_doctor .mint-cell{
+     display:inline-block;
+     height:90%;
+     color:#555;
+     min-height: 0.4rem;
+     height:0.6rem;
+     line-height:0.6rem;
+     padding:0.08rem 0;
+
+} 
+
+
+.See_doctor .See_doctor  .mint-radiolist{
+  height:0.7rem
+
+}
+
+
+/* .See_doctor .mint-radio-core {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+
+}
+.mint-radio-core::after {
+    content: " ";
+    border-radius: 100%;
+    top: 4px;
+    left: 4px;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+}
+ */
+
+/* add_appoint的checkbox的样式 */
+
+.symptom .mint-checkbox-core,.symptom .mint-checklist-title  {
+  display:none;
+}
+
+.symptom .mint-cell{
+    min-height: 0px;
+    height:auto;
+
+}
+.symptom  .mint-cell-wrapper{
+    padding:0 0;
+    min-height:0; 
+    border:1px solid red;
+    
+
+}
+
+
+.symptom  .mint-checkbox-label {
+    vertical-align: middle;
+    height:0.5rem;
+
+}
+.symptom .mint-checklist{
+    border:1px solid button;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+/*修改mint-ui的样式*/
+.mint-toast{
+    background: rgb(200,201,203);
+    box-shadow: 0px 6px  9px rgba(231,227,227,0.9);
+    z-index: 999999999999
+    }
+
+
+/* integral兑积分的按钮 */
+.watchWord_Btn .mint-button--primary{
+  margin:auto;
+  width:3.8rem;
+}
+
+.integral_succeed_Btn  .mint-button--primary {
+    color: #fff;
+    margin:auto;
+    width:3.8rem;
+    background-color: #FAB041;
+    box-shadow: 0px 6px  9px rgba(231,227,227,0.9); 
+    display: block;
+    height:0.85rem;
+ } 
+.integral_succeed_Btn  .mint-button::after{
+    background-color:#E0E2E7;
+}
+
+
+
+.bottom_part .mint-button{
+   height:0.5rem;
+}
+
+.bottom_part .mint-button--primary{
+   width:78%;
+   margin:auto;
+   min-height:0;
+   height:0.7rem;
+}
+.Integral_part  .mint-button--primary {
+    color: #fff;
+    background-color: #C8C9CB;
+    box-shadow: 0px 6px  9px rgba(231,227,227,0.9); 
+    display: block;
+    height:0.85rem;
+ } 
+.Integral_part  .mint-button::after{
+   background-color: #DFDFDF;
+}
+
+
+
+
+/* footer item的按钮 */
+.foot_part .mint-button--primary {
+    color: #fff;
+    background-color: #FAB041;
+    box-shadow: 0px 6px  9px rgba(231,227,227,0.9); 
+    display: block;
+    font-size:;
+    height:0.85rem;
+ } 
+
+.foot_part .mint-button{
+   font-size:0.35rem
+}
+
+.foot_part .mint-button::after{
+    background-color:#FCD7A0;
+} 
+
+
+/* QRcode 切换页面的按钮 */
+.toEcoupons .mint-button--primary {
+    color: #fff;
+    background:linear-gradient(to top, #ed1851, #fcb427); 
+    box-shadow: 0px 6px  9px rgba(231,227,227,0.9); 
+    display: block;
+    height:100%;
+    border-radius: 100%;
+
+ } 
+
+.toEcoupons  .mint-button::after{
+    background-color:#FCD7A0;
+} 
+
+
+
+.disabled_Btn  .mint-button--primary {
+    color:0.28rem;
+    background-color: #C8C9CB;
+    box-shadow: 0px 6px  9px rgba(231,227,227,0.9); 
+
+ } 
+.disabled_Btn  .mint-button::after{
+    background-color:#E0E2E7;
+}
+
+
+.succeed_Btn  .mint-button--primary {
+    color:0.28rem;
+    background-color: #F9A91B;
+    box-shadow: 0px 6px  9px rgba(231,227,227,0.9); 
+
+ } 
+.succeed_Btn .mint-button::after{
+    background-color:#E0E2E7;
+}
+
+.succeed_Btn_blue  .mint-button--primary {
+    color:0.28rem;
+    background-color: #C8C9CB;
+    box-shadow: 0px 6px  9px rgba(231,227,227,0.9); 
+
+ } 
+.succeed_Btn_blue .mint-button::after{
+    background-color:#E0E2E7;
+}
+
+.mint-indicator-wrapper{
+    z-index:999;
+}
+
+
+
